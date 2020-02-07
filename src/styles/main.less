@@ -1,0 +1,75 @@
+@fontSize: 14px;
+@backgroundColor: #fff;
+@fontFamily: "Montserrat", "Arial", sans-serif;
+
+@darkBlue: #173f5f;
+@lightBlue: #20639b;
+@green: #3caea3;
+@yellow: #f6d55c;
+@orange: #ed553b;
+@white: #fff;
+@black: #2e2e2e;
+
+@box_shadow: 4px 6px 12px -2px rgba(0, 0, 0, 0.3);
+
+// body {
+//   background-color: @black;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+// }
+
+.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-item-selected {
+  color: #000;
+  border-bottom: 2px solid transparent;
+}
+
+.ant-menu-horizontal > .ant-menu-item > a:hover,
+.ant-menu-horizontal > .ant-menu-item-selected > a,
+.ant-menu-horizontal > .ant-menu-item-selected > a:hover {
+  color: #000;
+}
+
+.ant-layout .ant-dropdown-trigger {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.ant-layout .anticon svg {
+  font-size: 16px;
+}
+
+.ant-layout .anticon svg path {
+  fill: #000000a6;
+}
+
+.ant-layout .anticon svg path {
+  transition: fill 0.3s ease;
+}
+
+.ant-layout .anticon svg:hover path {
+  fill: #000;
+}
+
+.ant-layout {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.ant-layout-footer {
+  background-color: #2e2e2e;
+  color: #ccc;
+}
+
+.ant-switch {
+  background-color: #ff0000;
+}
+
+.ant-switch.ant-switch-checked {
+  background-color: #fab525;
+}
