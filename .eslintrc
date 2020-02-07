@@ -8,6 +8,9 @@
   ],
   "plugins": ["jsx-a11y", "prettier"],
   "rules": {
+    "no-alert": "off",
+    "no-shadow": "off",
+    "no-unused-prop-types": "off",
     "no-console": "off",
     "no-use-before-define": "off",
     "no-param-reassign": "off",
