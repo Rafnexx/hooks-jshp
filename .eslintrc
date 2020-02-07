@@ -17,6 +17,7 @@
       "error",
       {
         "semi": true
+        // "tabWidth": 4
       }
     ]
   }

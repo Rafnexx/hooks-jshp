@@ -10,3 +10,10 @@ ReactDOM.render(<App />, document.getElementById("root"));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+/*
+    1. npx create-react-app nazwa-apki
+    2. npm install node-sass
+    3. npm install eslint --save-dev
+
+*/
